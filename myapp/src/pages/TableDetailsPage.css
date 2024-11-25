@@ -1,0 +1,60 @@
+.table-details {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .table-details h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .table-details p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .table-details p span {
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .no-reservation {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  
+  .assigned-employee {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .table-details div {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-details p:first-of-type {
+    margin-top: 0;
+  }
+  
+  .table-details p:last-of-type {
+    margin-bottom: 0;
+  }
+  

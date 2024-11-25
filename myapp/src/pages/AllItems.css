@@ -1,0 +1,122 @@
+
+body{
+    background: linear-gradient(to bottom right, #89CFF0, #FFB6C1);
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:hover {
+    background-color: #e6f7ff;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:first-of-type {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  button:first-of-type:hover {
+    background-color: #218838;
+  }
+  
+  button:last-of-type {
+    background-color: #dc3545; /* Red */
+    color: white;
+  }
+  
+  button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  
+  /* Form Styles */
+  form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  button[type="button"] {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,93 @@
+.reservation-page {
+    text-align: center;
+    margin: 50px;
+    position: relative;
+    padding-bottom: 50px; /* Adjust space for the button */
+  }
+  
+  .reservation-title {
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 3em;
+  }
+  
+  .make-reservation-button {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .tables {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 tables per row */
+    grid-gap: 40px; /* Space between tables */
+    margin-top: 40px;
+    padding: 0 10%; /* Add padding to center tables */
+  }
+  
+  .table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 200px; /* Adjust table height */
+    background-color: #ddd;
+    border-radius: 8px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    /* Add background image */
+    background-image: url('/Images/img1.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the table */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image tiling */
+    color: white; /* Make text visible over the image */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Add text shadow */
+  }
+  
+  .table:hover {
+    opacity: 0.8;
+  }
+  
+  /* Updated styles based on status */
+  .green {
+    background-color: #28a745; /* Available */
+  }
+  
+  .yellow {
+    background-color: #ffc107; /* Pending */
+  }
+  
+  .red {
+    background-color: #dc3545; /* Confirmed */
+  }
+  
+  .status-legend {
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+  
+  .status-legend span {
+    font-weight: bold;
+  }
+  
+  .status-legend .green {
+    color: #28a745;
+  }
+  
+  .status-legend .yellow {
+    color: #ffc107;
+  }
+  
+  .status-legend .red {
+    color: #dc3545;
+  }
+  

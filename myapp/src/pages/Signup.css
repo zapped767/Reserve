@@ -1,0 +1,126 @@
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Main container for the signup page */
+  .signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+  }
+  
+  /* Signup container (form card) */
+  .signup-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    max-width: 400px;
+    height: 75%;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 1s ease;
+  }
+  
+  /* Fade-in effect for the container */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Title and subtitle styling */
+  .signup-title {
+    font-size: 2rem;
+    color: #111010;
+    margin-bottom: 10px;
+  }
+  
+  .signup-subtitle {
+    font-size: 1rem;
+    color: #1a0c0c;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .signup-form {
+    text-align: left;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #110f0f;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 85%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #3e2cd9;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #0d0d0d;
+    box-shadow: 0px 4px 10px rgba(255, 117, 140, 0.2);
+  }
+  
+  /* Signup button styling */
+  .signup-button {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff758c, #ff98b0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background: linear-gradient(135deg, #ff98b0, #ff758c);
+    transform: scale(1.05);
+  }
+  
+  /* Footer text */
+  .signup-footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666666;
+  }
+  
+  .signup-footer a {
+    color: #ff758c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-footer a:hover {
+    text-decoration: underline;
+  }
