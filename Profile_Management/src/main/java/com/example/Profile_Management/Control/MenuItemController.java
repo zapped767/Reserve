@@ -5,6 +5,9 @@ package com.example.Profile_Management.Control;
 
 import com.example.Profile_Management.Entity.MenuItem;
 import com.example.Profile_Management.Service.MenuItemService;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +15,12 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
+
+@AllArgsConstructor
+@NoArgsConstructor
 @RestController
+@Data
 @RequestMapping("/api/menu")
 @CrossOrigin("*")
 public class MenuItemController {

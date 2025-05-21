@@ -13,6 +13,9 @@ public class User {
     private String address;
     private String contactNumber;
 
+    public User(long id, String username, String firstName, String lastName, String email) {
+    }
+
     // Getters and Setters
     public Long getId() {
         return id;

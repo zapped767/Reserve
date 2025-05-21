@@ -25,4 +25,10 @@ public class Reservation {
     private int numberOfGuests;
     private String status;  // Example: "Pending", "Confirmed", "Cancelled"
     private String assignedEmployee;
+
+    public Reservation(long l, String john, LocalDate now, String dinner) {
+    }
+
+    public Reservation(String alice, String number, int i, LocalDate now, LocalTime of, int i1, String confirmed, String employee1) {
+    }
 }

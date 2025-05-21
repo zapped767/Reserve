@@ -16,6 +16,10 @@ public class Chef {
     private String position;
     private String address;
     private String contactNumber;
+    private String specialty;
+
+    public Chef(long l, String chefAnna, String italian) {
+    }
 
     // Getters and Setters
     public Long getId() {
@@ -56,5 +60,19 @@ public class Chef {
 
     public void setContactNumber(String contactNumber) {
         this.contactNumber = contactNumber;
+    }
+
+
+    public Chef(String name, String specialty) {
+        this.name = name;
+        this.specialty = specialty;
+    }
+
+    public void setSpecialty(String mexican) {
+
+    }
+
+    public String getSpecialty() {
+        return specialty;
     }
 }

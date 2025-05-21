@@ -20,6 +20,12 @@ public class InventoryItem {
     private String description;
     private int quantity;
     private double price;
+
+    public InventoryItem(long l, String itemA, int i, double v) {
+    }
+
+    public InventoryItem(Long o, String itemC, int i, double v) {
+    }
 }
 
 

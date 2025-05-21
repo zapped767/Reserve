@@ -5,7 +5,12 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "dishwasher")
 public class Dishwasher {
@@ -16,6 +21,10 @@ public class Dishwasher {
     private String position;
     private String address;
     private String contactNumber;
+    private String shift;
+
+    public Dishwasher(long l, String john, String night) {
+    }
 
     // Getters and Setters
     public Long getId() {
@@ -56,5 +65,13 @@ public class Dishwasher {
 
     public void setContactNumber(String contactNumber) {
         this.contactNumber = contactNumber;
+    }
+
+
+    public void setShift(String night) {
+    }
+
+    public String getShift() {
+        return shift;
     }
 }

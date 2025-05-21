@@ -13,6 +13,9 @@ public class Manager {
     private String address;
     private String contactNumber;
 
+    public Manager(long l, String rachel, String operations) {
+    }
+
     // Getters and Setters
     public Long getId() {
         return id;
